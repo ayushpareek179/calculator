@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 35px;
+}
+.container {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.container > table {
+  margin: auto;
+}
+
+.calc {
+  display: inline-block;
+  font-size: 1.4em;
+  border: 4px white solid;
+  padding: 10px;
+}
+
+button {
+  font-size: 30px;
+  width: 138px;
+  height: 60px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-radius: 10px;
+  background-color: #00ffa2;
+}
+
+input {
+  width: 552px;
+  font-size: 46px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif, Tahoma,
+    Geneva, Verdana, sans-serif;
+}
